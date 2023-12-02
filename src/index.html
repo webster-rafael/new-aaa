@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/output.css">
+    <script src="https://kit.fontawesome.com/2142897eba.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Document</title>
+
+    <style>
+            #card:hover #card-img 
+            {
+                height: 420px;
+                padding: 20px;
+                transform: translateY(0);
+            }
+
+            .cards-visible 
+            {
+                display: none;
+            }
+            
+    </style>
+</head>
+<body class="w-screen h-screen bg-green-800 overflow-x-hidden">
+    <nav class="w-full bg-zinc-800 flex justify-between px-12 py-5 text-center text-white font-Poppins font-medium max-[1000px]:px-6">
+        <div class="flex w-60 items-center">
+            <a href="#">
+                <img class="h-10 mr-4 rounded-full logo" src="image/logo-ong.png" alt="">      
+            </a>
+            <span class="flex justify-center items-center logo">ATO DE AMOR ANIMAL</span>
+        </div>
+        <div class="flex justify-between items-center gap-3">
+            <ul class="flex gap-8 max-[850px]:hidden">
+                <li class="hover:underline decoration-2 widget">Contato</li>
+                <li class="hover:underline decoration-2 widget">Cachorros</li>
+                <li class="hover:underline decoration-2 widget">Doações</li>
+                <li class="hover:underline decoration-2 widget">Voluntários</li>
+            </ul>
+        
+ 
+        <div class="flex topp">
+            <button class="h-10 rounded-3xl px-4 font-Poppins font-medium justify-center items-center bg-green-400 hover:bg-yellow-500 hover:text-black">
+                Quero Adotar
+                <i class="fa fa-paw"></i>
+            </button>
+        </div>
+    </div>
+    </nav>
+
+    <!-- ================== Hero Main =================== -->
+
+    <main class="rounded-bl-[50px]">
+        
+        <section class="w-full h-screen bg-zinc-800 shadow-inner rounded-ee-[999px]">
+            
+            <div class="w-full h-4/5 px-28 pt-20 grid grid-cols-2 gap-10 max-[1000px]:px-16 max-[850px]:grid-cols-1 max-[850px]:h-5/6 max-[850px]:gap-0 max-[850px]:pt-2">
+                <div class="w-full bg-zinc-800 rounded-xl banner-2">
+                    <div class="w-full h-2/5 max-[900px]:h-1/6 max-[900px]:pt-4 max-[850px]:h-44">
+                        <h1 class="text-white leading-tight font-Poppins capitalize font-semibold text-5xl max-[900px]:text-3xl">Instituição <br> Ato de <br> Amor Animal</h1>              
+                    </div>
+
+                    <div class="flex items-center w-full h-1/5 max-[850px]:h-16 max-[850px]:-mt-8 ">
+                        <p class="font-Roboto text-left text-zinc-400">Comprometidos com a adoção responsável e a conscientização, buscamos criar um mundo onde cada animal seja valorizado. <br>
+                        Nos Ajude nessa Jornada em busca do bem-estar dos nossos PETS!</p>
+                    </div>
+
+                    <div class="w-full h-1/5 flex justify-start items-center">
+                        <button class="h-10 rounded-2xl px-6 justify-center text-white items-center font-Poppins font-medium shadow-lg shadow-black bg-green-400 hover:bg-yellow-500 hover:text-black">
+                            <a href="#apresentação">Conheça Agora
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </button>
+
+                    </div>
+                </div>
+            
+            <div class="w-full bg-zinc-600 rounded-xl shadow-2xl shadow-black banner">
+                <div class="w-full h-3/4 bg-[url('/src/image/ong-20.jpg')] bg-center bg-cover rounded-xl rounded-b-none max-[850px]:h-80">
+                </div>  
+
+                <div class="w-full h-1/4 flex justify-between items-center text-center text-white gap-2 px-8 font-Roboto font-medium">
+                    <div class="">
+                        <i class="fa-solid fa-dog fa-beat text-5xl text-green-500"></i>
+                        <div class="mt-2">Escolha seu Amigo</div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-hand-holding-dollar fa-beat text-5xl text-green-500"></i>
+                        <div class="mt-2">Faça uma Doação</div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-handshake-angle fa-beat text-5xl text-green-500"></i>
+                        <div class="mt-2">Voluntariasse</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </section>
+        <div class="h-36 bg-zinc-800 bg-gradient-to-b from-green-800 to-zinc-800 max-[850px]:h-24"></div>
+
+        <!-- ========================== Apresentação ====================== -->
+
+        <section class="flex w-full h-screen bg-zinc-800 rounded-b-[50px]" id="apresentação">
+            <div class="w-full h-screen px-28 pt-2 banner-2">
+                <div class="flex justify-start items-center w-full text-white font-Poppins font-semibold text-3xl">
+                    <h1>Celebre amá-los</h1>
+                </div>
+                <div class="flex justify-start items-center mt-1 w-full text-zinc-400 font-Roboto font-normal text-base">
+                    <p>Amor de Verdade não se Compra, se Encontra</p>
+                </div>
+                <div class="w-full grid grid-cols-3 gap-6 pt-14 max-[850px]:grid-cols-1 max-[850px]:pt-4">
+                    <div class="h-80 bg-zinc-700 bg-[url('/src/image/ong-11.jpg')] bg-bottom bg-cover rounded-xl shadow-md shadow-black banner-2 ">
+                    </div>
+                    <div class="h-80 bg-zinc-700 bg-[url('/src/image/ong-25.jpg')] bg-center bg-cover rounded-xl shadow-lg shadow-black" id="button">
+                    </div>
+                    <div class="h-80 bg-zinc-700 bg-[url('/src/image/ong-02.jpg')] bg-bottom bg-cover rounded-xl shadow-lg shadow-black banner">
+                    </div>
+                </div>
+
+                <div class="w-full pt-2 grid grid-cols-3 gap-5 bott">
+                    <div class="grid grid-cols-3 gap-2">
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-13.jpg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                        <div class="w-25 h-24 bg-[url('/src/image/MARRY.jpeg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-03.jpg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                    </div>
+
+                    <div class="w-full grid grid-cols-3 gap-2">
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-15.jpg')] bg-center bg-cover rounded-2xl shadow-md shadow-black"></div>
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-08.jpg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-37.jpg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                    </div>
+
+                    <div class="w-full grid grid-cols-3 gap-2">
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-38.jpg')] bg-center bg-cover rounded-2xl shadow-md shadow-black"></div>
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-40.jpg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                        <div class="w-25 h-24 bg-[url('/src/image/ong-42.jpg')] bg-bottom bg-cover rounded-2xl shadow-md shadow-black"></div>
+                    </div>
+                </div>
+
+
+                <div class="w-full flex justify-between font-Poppins mt-2 items-center text-white text-md">
+                    <div>
+                        <h1>Parceiro</h1>
+                        <div class="flex justify-center items-center">
+                            <img class="w-5 h-5 rounded-full" src="image/ong-21.jpg" alt="">
+                            <p class="font-Roboto flex justify-center items-center text-sm pl-2">Ato de Amor Animal</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 class="text-center">Amigo</h1>
+                        <div class="flex justify-center items-center">
+                            <img class="w-5 h-5 rounded-full" src="image/ong-11.jpg" alt="">
+                            <p class="font-Roboto flex justify-center items-center text-sm pl-2">Ato de Amor Animal</p>
+                        </div>
+                        
+                    </div>
+                    <div class="">
+                        <h1 class="text-end">Companheiro</h1>
+                        <div class="flex justify-center items-center">
+                            <img class="w-5 h-5 rounded-full" src="image/ong-15.jpg" alt="">
+                            <p class="font-Roboto flex justify-center items-center text-sm pl-2">Ato de Amor Animal</p>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                
+                
+
+        </section>
+        <div class="h-36 bg-gradient-to-b from-green-800 to-zinc-800"></div>
+
+        <!-- ===================== FIM Apresentação ====================== -->
+            <section class="w-full bg-zinc-800">
+                <div class="flex px-28 justify-between items-center pt-2" id="button">
+                    <div class="w-full">
+                        <div class="flex justify-start items-center w-full text-white font-Poppins font-semibold text-3xl ">
+                            <h1>Conheça Seu Melhor Amigo</h1>
+                        </div>
+                        <div class="flex justify-start items-center mt-1 w-full text-zinc-400 font-Roboto font-normal text-base">
+                            <p>Clique nas imagens abaixo e conheça seu novo melhor Amigo</p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-end items-end w-2/4 h-24 pt-6">
+                        <button class=" gap-1 flex flex-row h-10 text-sm rounded-3xl px-6 font-Poppins font-medium justify-center items-center text-black border bg-yellow-500 hover:bg-green-400 hover:text-white hover:border-none">
+                            <a href="#formulario">Quero Adotar</a>
+                            <i class="fa fa-paw"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ================== cards ================ -->
+                <div class="flex w-full" id="doação">
+                    <div name="container" class="grid grid-cols-4 gap-10 px-28 pt-10 text-white">
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-02.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">JHENNY</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">JHENNY</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : MESTIÇA PASTOR BELGA <br>
+                                    IDADE : +OU- DOIS ANOS <br>
+                                    TEMPERAMENTO : BRAVA, NÃO INTERAGE COM OUTROS CÃES. <br>
+                                    CASTRADA, OTIMO CÃO DE GUARDA. <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-08.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">CIGANA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">CIGANA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : MESTIÇA BOXER <br>
+                                    IDADE : 1.6 ANOS <br>
+                                    TEMPERAMENTO : AGITADA, BRINCALHONA, BRAVA. <br>
+                                    CASTRADA, OTIMO CÃO DE GUARDA. <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-15.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">ATHENA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">ATHENA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : MESTIÇA PORTE GRANDE <br>
+                                    IDADE : 3 ANOS <br>
+                                    TEMPERAMENTO: DÓCIL, SE DA BEM COM OUTROS CÃES <br>
+                                    CASTRADA<br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-20.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">KIARA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">KIARA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : PITBULL <br>
+                                    IDADE : 1 ANOS <br>
+                                    TEMPERAMENTO : DÓCIL COM PESSOAS, AGRESSIVA COM OUTROS ANIMAIS <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-26.jpg')] bg-bottom bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">RUBI</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">RUBI</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA: SRD, PORTE PEQUENO <br>
+                                    IDADE : +OU- 1 ANO <br>
+                                    TEMPERAMENTO : DÓCIL, SEMPRE ALERTA, INTERAGE COM OUTROS ANIMAIS <br>
+                                    CASTRADA<br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-29.jpg')] bg-bottom bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">ESPERANÇA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">ESPERANÇA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : MESTIÇA BASSET <br>
+                                    IDADE : 1 ANO E 6 MESES <br>
+                                    TEMPERAMENTO : DÓCIL, INTERAGE COM OUTROS CÃES, SEMPRE ALERTA <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-37.jpg')] bg-bottom bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">NEGA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">NEGA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD PORTE GRANDE <br>
+                                    IDADE : 2 ANOS <br>
+                                    TEMPERAMENTO : DÓCIL, BRINCALHONA <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/MARRY.jpeg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">MARRY</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">MARRY</span>
+                                <p class="text-xs font-Roboto mb-0">
+                                    IDADE : 10 MESES <br>
+                                    CASTRADA <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-03.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">LIVIA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">LIVIA</span>
+                                <p class="text-xs font-Roboto mb-0">
+                                    IDADE : 1 ANOS<br>
+                                    CASTRADA <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-13.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">FILHOTE</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">FILHOTE</span>
+                                <p class="text-xs font-Roboto mb-0">
+                                    NOME : SEJA CRIATIVO! DÊ SEU MELHOR NOME PARA ELE <br>
+                                    IDADE : FILHOTE <br>
+                                    PELAGEM : SIÂMES <br>
+                                    MACHO
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-30.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">SHITARA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">SHITARA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : MESTIÇA, PORTE GRANDE <br>
+                                    IDADE : 3 ANOS <br>
+                                    TEMPERAMENTO : AGRESSIVA, NÃO CONVIVE COM OUTROS ANIMAIS<br>
+                                    OTIMO CÃO DE GUARDA. <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-38.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">ÁGINA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">ÁGINA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD, PORTE MÉDIO <br>
+                                    IDADE : 2 ANOS <br>
+                                    TEMPERAMENTO : ALERTA, BRINCALHONA, INSTINTO DE PROTEÇÃO AO SEU DONO <br>
+                                    CASTRADA<br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-42.jpg')] bg-bottom bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">LILI CARAMELO</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">LILI CARAMELO</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD, PORTE PEQUENO <br>
+                                    IDADE : 1.6 ANOS <br>
+                                    TEMPERAMENTO : BRINCALHONA, DÓCIL, SE DA BEM COM OUTROS ANIMAIS <br>
+                                    CASTRADA<br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/ong-35.jpg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">BABY</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">BABY</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD, PORTE PEQUENO <br>
+                                    IDADE : FILHOTE 60 DIAS <br>
+                                    <br>
+                                    EM TRATAMENTO
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/FLORINDA.jpeg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">FLORINDA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">FLORINDA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD, PORTE PEQUENO <br>
+                                    IDADE : 2 ANOS <br>
+                                    TEMPERAMENTO : DÓCIL, BRINCALHONA, ALEGRE <br>
+                                    CASTRADA<br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/YANA.jpeg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">YANA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">YANA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD, PORTE MÉDIO <br>
+                                    IDADE : 2 ANOS <br>
+                                    TEMPERAMENTO : DÓCIL, SE DA BEM COM OUTROS CÃES <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+
+                        <div name="card" class="flex group flex-col pb-4 h-80 cursor-pointer items-center bg-zinc-700 rounded-xl overflow-hidden cards-visible" id="card">
+                            <div class="flex justify-center items-center w-80 h-80 bg-[url('/src/image/NARCISA.jpeg')] bg-center bg-cover relative group-hover:opacity-60">
+                                <span class="text-2xl italic font-Poppins uppercase">NARCISA</span>
+                            </div>
+
+                            <div class="px-5 overflow-hidden h-0 transition-all duration-700 translate-y-7" id="card-img">
+                                <span class="text-2xl text-center font-Poppins font-bold">NARCISA</span>
+                                <p class="text-xs font-Roboto mb-0">RAÇA : SRD, PORTE GRANDE <br>
+                                    IDADE : 3 ANOS <br>
+                                    TEMPERAMENTO : AGITADA, DOMINADORA <br>
+                                    CASTRADA <br>
+                                    FÊMEA
+                                </p>
+                            </div>
+
+                            <div class="flex items-center group justify-center">
+                                <span class="text-2xl rotate-0 group-hover:-rotate-180">&#8673;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+                    <div class="flex w-full justify-center items-center p-10" id="botão">
+                        <button class=" gap-1 flex flex-row h-10 text-sm rounded-3xl px-6 font-Poppins font-medium justify-center items-center text-white border border-green-400 hover:bg-yellow-500 hover:text-black hover:border-none" id="show-hide">
+                            Mostrar Mais &#8595;
+                    </div>
+                    <div class="h-36 bg-gradient-to-b from-green-800 to-zinc-800 rounded-t-[50px]"></div>
+                
+        </section>
+
+        <!-- =================== Voluntários ================== -->
+
+        <section class="w-full h-screen bg-zinc-800 ">
+            
+            <div class="w-full px-28 pt-0">
+                <div class="flex justify-start items-center w-full text-white font-Poppins font-semibold text-3xl">
+                    <h1>Voluntariasse</h1>
+                </div>
+                <div class="flex justify-start items-center mt-1 w-full text-zinc-400 font-Roboto font-normal text-base">
+                    <p>Torne-se voluntário e contribua para um mundo melhor."</p>
+                </div>
+            </div>
+            <div class="w-full flex justify-center items-center gap-10 pt-10 pb-10 px-28">
+                <div class="bg-[url('/src/image/help-them-bg.jpg')] bg-center bg-cover rounded-xl" style="width: 425px; height: 310px;">
+                </div>
+
+                <div class="bg-zinc-00" style="width: 425px; height: 310px;">
+                    <div class="w-full bg-gradient-to-l from-green-700 rounded-xl p-3">
+                        <div class="w-full h-2/5">
+                            <h1 class="text-white leading-tight font-Poppins capitalize font-semibold text-3xl">Torne-se Agora Um <br> Voluntário</h1>              
+                        </div>
+    
+                        <div class="flex items-center w-full">
+                            <p class="font-Roboto text-left text-zinc-400">Junte-se a nós e faça a diferença na vida dos animais! Torne-se agora um voluntário dedicado ao resgate e adoção de pets. <br>
+                                Sua ajuda é fundamental para proporcionar um lar amoroso e cuidados essenciais a esses amigos peludos que tanto precisam. <br>
+                                Seja parte do movimento que transforma vidas e deixa um impacto positivo no mundo dos animais de estimação. </p>
+                        </div>                       
+                    </div>      
+                </div>
+            </div>
+
+            <div class="w-full flex justify-center pb-8">
+                <button class="h-10 rounded-2xl px-6 justify-center text-black items-center font-Poppins font-medium shadow-lg shadow-black bg-yellow-500 hover:bg-green-500 hover:text-white">
+                    <a href="https://websterdeveloper.pro">Quero me Voluntariar
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+                </button>
+            </div>
+
+
+            <div class="w-3/5 flex justify-evenly gap-0 items-center px-28 mx-auto">
+                <div class="w-20 h-20 rounded-full bg-[url('/src/image/voluntarios-1.png')] bg-center bg-cover"></div>
+                <div class="w-20 h-20 rounded-full bg-[url('/src/image/voluntarios-2.png')] bg-center bg-cover"></div>
+                <div class="w-20 h-20 rounded-full bg-[url('/src/image/voluntarios-3.jpg')] bg-center bg-cover"></div>
+            </div>
+        </section>
+    </main>
+    <script src="show-hidden.js"></script>
+    <script src="scroll-reveal.js"></script>
+</body>
+
+</html>
